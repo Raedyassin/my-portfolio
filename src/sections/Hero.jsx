@@ -39,12 +39,23 @@ export default function Hero() {
                 Developer
               </h1>
             </div>
-            <p className="xl:w-[50%]  text-white-50 md:text-xl  
-            text-lg relative z-10 pointer-events-none">
-              Hi! I'm Raed Yassin. A creative Full Stack Developer with a strong
-              focus on Frontend Development and over a year of experience
-              building high-performance, scalable, and responsive web solutions.
-              I’m passionate about crafting smooth user experiences and writing
+            <p
+              className="xl:w-[50%]  text-white-50 md:text-xl  
+            text-lg relative z-10 pointer-events-none"
+            >
+              Hi! I'm{" "}
+              <span className="text-green-500 font-bold  ">Raed Yassin</span>. A
+              creative{" "}
+              <span className="text-green-500 font-bold  ">
+                Full Stack Developer
+              </span>{" "}
+              with a{" "}
+              <span className="text-green-500 font-bold italic">
+                strong focus on Frontend Development
+              </span>{" "}
+              and over a <span className="text-green-500 font-bold">year of experience</span> building
+              high-performance, scalable, and responsive web solutions. I’m
+              passionate about crafting smooth user experiences and writing
               clean, maintainable code across the stack.
             </p>
             <Button
@@ -56,7 +67,7 @@ export default function Hero() {
         </header>
         {/* right: 3D model */}
         <figure
-          // className="z-9"
+        // className="z-9"
         >
           <div className="hero-3d-layout cursor-grab  ">
             <HeroExperience />
