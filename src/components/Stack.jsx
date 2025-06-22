@@ -21,9 +21,9 @@ export default function Stack({ stackSkills, stackName }) {
           ease: "power3.out",
           scrollTrigger: {
             trigger: containerRef.current,
-            start: "top 80%",
+            start: "top 90%",
             end: "top 50%",
-            scrub: true, // ✅ Key change
+            scrub: true, 
           },
         }
       );
@@ -41,7 +41,7 @@ export default function Stack({ stackSkills, stackName }) {
           scrollTrigger: {
             trigger: containerRef.current,
             start: "top 75%",
-            end: "top 50%",
+            end: "top 65%",
             scrub: true, // ✅ Key change
           },
         }

@@ -1,5 +1,4 @@
 import Button from "../components/Button.jsx";
-import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 export default function Hero() {
@@ -20,11 +19,14 @@ export default function Hero() {
   });
 
   return (
-    <section id="hero" className="relative overflow-hidden">
+    <section id="hero" className="relative ">
       <div className="absolute top-0 left-0 z-10">
         <img src="/images/bg.png" alt="background" />
       </div>
-      <div className="relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] flex xl:items-center items-start justify-center">
+      <div
+        className="relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] 
+        flex xl:items-center items-start justify-center"
+      >
         {/* left: hero content */}
         <header
           className="about flex flex-col justify-center md:w-full w-screen 
@@ -53,9 +55,12 @@ export default function Hero() {
               <span className="text-green-500 font-bold italic">
                 strong focus on Frontend Development
               </span>{" "}
-              and over a <span className="text-green-500 font-bold">year of experience</span> building
-              high-performance, scalable, and responsive web solutions. I’m
-              passionate about crafting smooth user experiences and writing
+              and over a{" "}
+              <span className="text-green-500 font-bold">
+                year of experience
+              </span>{" "}
+              building high-performance, scalable, and responsive web solutions.
+              I’m passionate about crafting smooth user experiences and writing
               clean, maintainable code across the stack.
             </p>
             <Button
@@ -65,14 +70,20 @@ export default function Hero() {
             />
           </div>
         </header>
-        {/* right: 3D model */}
-        <figure
-        // className="z-9"
+        {/* right: hero image */}
+        <div
+          className="absolute xl:top-40 top-100 xl:right-25 
+            "
         >
-          <div className="hero-3d-layout cursor-grab  ">
-            <HeroExperience />
-          </div>
-        </figure>
+          <img
+            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTY4OWQ2a3h5Z3g2Zng3OXB3NDg3cmMyYmFmNWczd2Zicnhob2RmaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif"
+            alt="hero"
+          />
+          <img
+            src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODhldG5hYnRvZ3VkOGU5MG1nOWlpY29rZ2F3cGp2dThieWU0dHpmdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MYI6NK4JOGpOzOriEg/giphy.gif"
+            alt="hero"
+          />
+        </div>
       </div>
     </section>
   );

@@ -43,10 +43,11 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="scroll-mt-24 mx-5 md:mx-10 flex flex-col my-20 md:mb-20 section-padding"
+      className="scroll-mt-24 mx-5 md:mx-10 flex flex-col my-20 md:mb-20 
+      section-padding mt-70 md:mt-40 xl:mt-10"
     >
       <div className="w-full h-full md:px-10 px-5 space-y-7 mb-5 md:mb-10">
-        <TitleHeader title="SELECTED PROJECTS " />
+        <TitleHeader className="px-0" title="SELECTED PROJECTS " />
       </div>
       <div className="mt-10 flex flex-row gap-6 ">
         {projectStacks.map((stack, index) => (
