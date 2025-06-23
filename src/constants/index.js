@@ -145,8 +145,9 @@ const frontendProjects = [
       "Handled API loading states and errors for consistent user feedback"
     ]
   },
+  
   {
-    name: "Admin Dashboard (English/Arabic)",
+    name: "Admin Dashboard ( English / Arabic )",
     gitHubLink: "https://github.com/Raedyassin/ReactDashboard-arabic-english", // replace with your actual GitHub repo
     Technologies: [
       "React",

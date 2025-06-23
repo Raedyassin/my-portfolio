@@ -20,20 +20,20 @@ export default function Hero() {
 
   return (
     <section id="hero" className="scroll-mt-24 relative min-h-[80vh] ">
-      <div className="absolute -top-30 left-0 z-100">
+      <div className="absolute -top-30 left-0 z-10">
         <img src="/images/bg.png" alt="background" />
       </div>
       <div
-        className="relative z-10  mt-32  
+        className="relative  mt-32  z-150
         flex flex-col xl:flex-row xl:gap-0 gap-5 justify-between items-center"
       >
         {/* left: hero content */}
         <header
           className="about flex flex-col justify-center w-full  
-          md:px-20 px-5  xl:w-3/5 "
+          md:px-20 px-5  xl:w-3/5  "
           // absolute xl:top-35
         >
-          <div className=" flex flex-col gap-7">
+          <div className="relative z-10 flex flex-col gap-7">
             <div className="">
               <h1 className="text-4xl md:text-6xl font-bold text-green-500">
                 Frontend
@@ -66,7 +66,7 @@ export default function Hero() {
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
-              id="button"
+              id="projects"
               text="See my work"
             />
           </div>
