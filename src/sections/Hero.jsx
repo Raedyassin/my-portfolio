@@ -19,18 +19,19 @@ export default function Hero() {
   });
 
   return (
-    <section id="hero" className="relative ">
-      <div className="absolute top-0 left-0 z-10">
+    <section id="hero" className="scroll-mt-24 relative min-h-[80vh] ">
+      <div className="absolute -top-30 left-0 z-100">
         <img src="/images/bg.png" alt="background" />
       </div>
       <div
-        className="relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] 
-        flex xl:items-center items-start justify-center"
+        className="relative z-10  mt-32  
+        flex flex-col xl:flex-row xl:gap-0 gap-5 justify-between items-center"
       >
         {/* left: hero content */}
         <header
-          className="about flex flex-col justify-center md:w-full w-screen 
-          md:px-20 px-5 absolute xl:top-35  "
+          className="about flex flex-col justify-center w-full  
+          md:px-20 px-5  xl:w-3/5 "
+          // absolute xl:top-35
         >
           <div className=" flex flex-col gap-7">
             <div className="">
@@ -42,7 +43,7 @@ export default function Hero() {
               </h1>
             </div>
             <p
-              className="xl:w-[50%]  text-white-50 md:text-xl  
+              className="  text-white-50 md:text-xl  
             text-lg relative z-10 pointer-events-none"
             >
               Hi! I'm{" "}
@@ -71,18 +72,17 @@ export default function Hero() {
           </div>
         </header>
         {/* right: hero image */}
-        <div
-          className="absolute xl:top-40 top-100 xl:right-25 
-            "
-        >
-          <img
-            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTY4OWQ2a3h5Z3g2Zng3OXB3NDg3cmMyYmFmNWczd2Zicnhob2RmaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif"
-            alt="hero"
-          />
-          <img
-            src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODhldG5hYnRvZ3VkOGU5MG1nOWlpY29rZ2F3cGp2dThieWU0dHpmdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MYI6NK4JOGpOzOriEg/giphy.gif"
-            alt="hero"
-          />
+        <div className="flex flex-col items-center p-10">
+          <div className=" flex gap-5 flex-col ">
+            <img
+              src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTY4OWQ2a3h5Z3g2Zng3OXB3NDg3cmMyYmFmNWczd2Zicnhob2RmaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.gif"
+              alt="hero"
+            />
+            <img
+              src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODhldG5hYnRvZ3VkOGU5MG1nOWlpY29rZ2F3cGp2dThieWU0dHpmdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MYI6NK4JOGpOzOriEg/giphy.gif"
+              alt="hero"
+            />
+          </div>
         </div>
       </div>
     </section>

@@ -54,7 +54,7 @@ section {
   }
 
   .section-padding {
-    @apply px-5 md:px-10 mt-10;
+    @apply px-5 md:px-10 mt-20;
     /* md: mt-40 */
   }
 

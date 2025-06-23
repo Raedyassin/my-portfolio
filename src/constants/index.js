@@ -77,11 +77,11 @@ const socialImgs = [
 
 const cvs = [
   {
-    stack: "Frontend Developer",
+    stack: ["Frontend","Developer"],
     link: "https://drive.google.com/file/d/11rQOKIohcgPe6_1DiReKws53w1V0hrNk/view?usp=sharing",
   },
   {
-    stack: "Full Stack Developer",
+    stack: ["Full Stack","Developer"],
     link: "https://drive.google.com/file/d/1oXIy_NzEkq2A7N4-HoNLrF7rvG7ZRuzR/view?usp=sharing",
   },
 ]

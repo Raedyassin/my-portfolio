@@ -31,8 +31,8 @@ export default function Skills() {
   });
 
   return (
-    <section id="skills" className="scroll-mt-24 flex-center mb-20 section-padding">
-      <div className="w-full h-full md:px-10 px-5 space-y-7 md:space-y-15">
+    <section id="skills" className="scroll-mt-24 flex-center mt-20 mb-10 section-padding">
+      <div className="w-full mt-20 h-full md:px-10 px-5 space-y-7 md:space-y-15">
         <TitleHeader title="My Stack" />
         <Stack stackName="Frontend" stackSkills={frontendSkills} />
         <Stack stackName="Backend" stackSkills={backendSkills} />

@@ -43,13 +43,13 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="scroll-mt-24 mx-5 md:mx-10 flex flex-col my-20 md:mb-20 
-      section-padding mt-70 md:mt-40 xl:mt-10"
+      className="scroll-mt-24  md:mx-10 flex flex-col my-10 md:mb-20 
+      section-padding   "
     >
-      <div className="w-full h-full md:px-10 px-5 space-y-7 mb-5 md:mb-10">
+      <div className="w-full  h-full md:px-10 px-5 space-y-7 mb-5 md:mb-10">
         <TitleHeader className="px-0" title="SELECTED PROJECTS " />
       </div>
-      <div className="mt-10 flex flex-row gap-6 ">
+      <div className="mt-10 flex mx-5 flex-row gap-6 ">
         {projectStacks.map((stack, index) => (
           <button
             onClick={() => handleClick(index)}
@@ -65,7 +65,7 @@ export default function Projects() {
         ))}
       </div>
 
-      <div>
+      <div className="mx-5">
         {stackindex === 0 ? (
           <div>
             {frontendProjects.map((project, index) => (
@@ -153,7 +153,7 @@ export default function Projects() {
                     </div>
                   </div>
                 )}
-                <div className="border-b-2 pt-5 border-white md:mx-5 w-[90%] " />
+                <div className="border-b-2 pt-5 border-white md:ml-5 md:mr-20 " />
               </div>
             ))}
           </div>
@@ -222,7 +222,7 @@ export default function Projects() {
                     </div>
                   </div>
                 )}
-                <div className="border-b-2 pt-5 border-white md:mx-5 w-[90%] " />
+                <div className="border-b-2 pt-5 border-white md:ml-5 md:mr-20  " />
               </div>
             ))}
           </div>
