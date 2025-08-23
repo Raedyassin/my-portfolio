@@ -52,12 +52,13 @@ export default function Stack({ stackSkills, stackName }) {
   }, []);
   
   return (
-    <div ref={containerRef} className="w-full flex flex-col md:flex-row md:gap-15  mb-10">
+    // <div ref={containerRef} className="w-full flex flex-col md:flex-row md:gap-15  mb-10">
+    <div ref={containerRef} className="w-full grid grid-cols-1 lg:grid-cols-4  mb-10">
       <h2 className="stack-header text-zinc-200 font-bold md:text-4xl 
         text-2xl uppercase my-3 w-[170px] md:w-[20%]">
         {stackName}
       </h2>
-      <div className="flex ml-2 flex-wrap justify-start">
+      <div className="col-span-3 flex ml-2 flex-wrap justify-start">
         {stackSkills.map((skill, index) => (
           <div
             key={index}

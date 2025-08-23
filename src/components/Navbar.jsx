@@ -37,7 +37,7 @@ export default function Navbar() {
         </nav>
         <a className="contact-btn group" href="#contact">
           <div className="inner">
-            <span>Contanct me</span>
+            <span>Contact me</span>
           </div>
         </a>
       </div>

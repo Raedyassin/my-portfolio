@@ -45,8 +45,12 @@ const frontendSkills = [
     imgPath: "/images/logos/javascript.png",
   },
   {
-    name: "React",
+    name: "React.Js",
     imgPath: "/images/logos/react.png",
+  },
+  {
+    name: "Next.Js",
+    imgPath: "/images/logos/next.webp",
   },
   {
     name: "Redux",
@@ -59,6 +63,10 @@ const frontendSkills = [
   {
     name: "Framer Motion",
     imgPath: "/images/logos/framer-motion.webp",
+  },
+  {
+    name: "GSAP",
+    imgPath: "/images/logos/gsap.png",
   },
 ];
 
@@ -78,11 +86,11 @@ const socialImgs = [
 const cvs = [
   {
     stack: ["Frontend","Developer"],
-    link: "https://drive.google.com/file/d/11rQOKIohcgPe6_1DiReKws53w1V0hrNk/view?usp=sharing",
+    link: "https://drive.google.com/file/d/14Cgxax_U2cQndnbj9AleAZhCwkzLEEoo/view?usp=sharing",
   },
   {
     stack: ["Full Stack","Developer"],
-    link: "https://drive.google.com/file/d/1oXIy_NzEkq2A7N4-HoNLrF7rvG7ZRuzR/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1ggl2xY0fqYMzraneY56tWEecOR4Gj1P-/view?usp=sharing",
   },
 ]
 
